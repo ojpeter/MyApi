@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:background="@color/color2"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:background="@drawable/grad_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startPage"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:layout_width="272dp"
+            android:layout_height="284dp"
+            android:src="@drawable/ic_bus"
+
+            android:contentDescription="@string/applogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/poweredby"
+            android:textColor="@color/color4"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/developer"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
